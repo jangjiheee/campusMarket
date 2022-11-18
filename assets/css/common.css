@@ -10,6 +10,15 @@ html, body {
   font-family: 'NanumSquare', sans-serif
 }
 
+.inner_container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+table {
+  margin: unset;
+}
+
 ul, li {
   list-style: none;
   padding: unset;

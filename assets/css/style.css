@@ -1,0 +1,124 @@
+.header .main_menu {
+  display: flex;
+  padding: 20px;
+  padding: 18px 64px 18px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.header .main_menu .main_gnb li {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.header .main_menu .main_gnb li:first-child {
+  margin-right: 78px;
+}
+
+.header .main_menu .main_gnb, .icon_box {
+  display: flex;
+}
+
+.header .main_menu .search_box {
+  width: 550px;
+  height: 34px;
+  background-color: rgba(187, 208, 255, 0.44);
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header .main_menu .search_box .search_img {
+  position: absolute;
+  right: 10px;
+  width: 18px;
+  height: 16px;
+}
+
+.header .main_menu .search_box .search_img img {
+  width: 100%;
+}
+
+.header .main_menu .icon_box .icon_img {
+  width: 58px;
+  height: 58px;
+}
+
+.header .main_menu .icon_box .icon_img img {
+  width: 100%;
+}
+
+.header .main_menu .icon_box .icon_img.person {
+  margin: 0 12px 0 28px;
+}
+
+.header .main_menu .icon_box ,.icon_txt {
+  display: flex;
+  align-items: center;
+}
+
+/* section */
+.section .main_title h1 {
+  text-align: center;
+  padding: 22px 0;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.section .main_title .mint_box {
+  height: 130px;
+  background-color: #F7F7F7;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.section .filter_array_flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 116px 24px 42px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.section .filter_array_flex>div {
+  display: flex;
+  align-items: center;
+}
+
+.section .filter_array_flex>div img {
+  margin-right: 5px;
+}
+
+.section .filter_array_flex>div p {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+.section .whole_chart {
+  display: flex;
+}
+
+.section .whole_chart .left_list_box {
+  width: 390px;
+  padding: 48px 0 0 52px;
+}
+
+.section .whole_chart .left_list_box .dep1 {
+  margin-bottom: 45px;
+}
+
+.section .whole_chart .left_list_box .dep1 a {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.section .whole_chart .right_list_box {
+  width: calc(100% - 390px);
+}
+
+.section .whole_chart .right_list_box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
