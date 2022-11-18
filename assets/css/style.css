@@ -20,6 +20,14 @@
   display: flex;
 }
 
+.header .main_menu .plus_chat {
+  padding: 6px 8px;
+  background-color: #FF6C6C;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
 .header .main_menu .search_box {
   width: 550px;
   height: 34px;
@@ -96,6 +104,34 @@
 .section .filter_array_flex>div p {
   font-size: 16px;
   color: #7a7a7a;
+}
+
+.section .filter_array_flex .array {
+  position: relative;
+}
+
+.section .filter_array_flex .array_click {
+  /* display: none; */
+  position: absolute;
+  right: 0;
+  bottom: -120px;
+  width: 240px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  padding: 12px 16px;
+}
+.section .filter_array_flex .array_click p {
+  border-bottom: 1px solid #cccccc;
+  line-height: 20px;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  font-size: 10px;
+}
+.section .filter_array_flex .array_click p:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
 }
 
 .section .whole_chart {
