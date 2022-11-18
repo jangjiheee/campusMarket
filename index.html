@@ -7,6 +7,8 @@
   <title>Document</title>
   <link rel="stylesheet" href="./assets/css/common.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/campus.js"></script>
+
 </head>
 <body>
   <div class="wrapper">
@@ -27,13 +29,19 @@
           </div>
           <div class="icon_box">
             <div class="icon_img chat">
-              <img src="./assets/images/chat.png" alt="chat">
+              <a href="javascript:(0)">
+                <img src="./assets/images/chat.png" alt="chat">
+              </a>
             </div>
             <div class="icon_img person">
-              <img src="./assets/images/person.png" alt="person">
+              <a href="javascript:(0)">
+                <img src="./assets/images/person.png" alt="person">
+              </a>
             </div>
             <div class="icon_txt">
-              <p class="icon_name">사용자</p>
+              <a href="javascript:(0)">
+                <p class="icon_name">사용자</p>
+              </a>
             </div>
           </div>
         </div>
@@ -59,13 +67,12 @@
         <div class="whole_chart">
           <div class="left_list_box">
             <ul>
-              <li class="dep1"><a href="javascript:(0)">전공/교양 교재<img src="./assets/images/bk_arrow_up.png" alt="up_arrow">
-              </a>
-                <ul>
+              <li class="dep1"><a href="javascript:(0)" class="li01">전공/교양 교재</a>
+                <ul class="dep2">
                   <li><a href="javascript:(0)">산업디자인 학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a></li>
                   <li><a href="javascript:(0)">생명환경학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a></li>
                   <li><a href="javascript:(0)">정보미디어학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a>
-                    <ul>
+                    <ul class="dep3">
                       <li><a href="javascript:(0)">사진영상미디어과</a></li>
                       <li><a href="javascript:(0)">그래픽커뮤니케이션과</a></li>
                       <li><a href="javascript:(0)">미디어콘텐츠과</a></li>
@@ -82,8 +89,31 @@
                 </ul>
               
               </li>
-              <li class="dep1"><a href="javascript:(0)">실습도구<img src="./assets/images/bk_arrow_down.png" alt="down_arrow"></a></li>
+              <li class="dep1"><a href="javascript:(0)">실습도구</a>
+                <ul class="dep2">
+                  <li><a href="javascript:(0)">산업디자인 학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a></li>
+                  <li><a href="javascript:(0)">생명환경학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a></li>
+                  <li><a href="javascript:(0)">정보미디어학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a>
+                    <ul class="dep3">
+                      <li><a href="javascript:(0)">사진영상미디어과</a></li>
+                      <li><a href="javascript:(0)">그래픽커뮤니케이션과</a></li>
+                      <li><a href="javascript:(0)">미디어콘텐츠과</a></li>
+                      <li><a href="javascript:(0)">IT소프트웨어과</a></li>
+                      <li><a href="javascript:(0)">AI소프트웨어과</a></li>
+                      <li><a href="javascript:(0)">정보통신보안과</a></li>
+                      <li><a href="javascript:(0)">VR게임콘테츠과</a></li>
+                    </ul>
+                  
+                  </li>
+                  <li><a href="javascript:(0)">비즈니스실무학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a></li>
+                  <li><a href="javascript:(0)">보건의료학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a></li>
+                  <li><a href="javascript:(0)">공간시스템학부<img src="./assets/images/grey_arrow_down.png" alt="grey_arrow"></a></li>
+                </ul>
+              </li>
             </ul>
+            <div class="purchase_btn">
+              <a href="javascript:(0)"><p>판매 글 등록</p></a>
+            </div>
           </div>
           <div class="right_list_box">
             <table>
@@ -186,15 +216,21 @@
   
             <div class="page_btn">
               <div class="btn_img">
-                <img src="./assets/images/prev_btn.png" alt="prev_btn">
+                <a href="javascript:(0)">
+                  <img src="./assets/images/prev_btn.png" alt="prev_btn">
+                </a>
               </div>
               <div class="page_num">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
+                <ul>
+                  <li><a href="javascript:(0)">1</a></li>
+                  <li><a href="javascript:(0)">2</a></li>
+                  <li><a href="javascript:(0)">3</a></li>
+                </ul>              
               </div>
               <div class="btn_img">
-                <img src="./assets/images/next_btn.png" alt="next_btn">
+                <a href="javascript:(0)">
+                  <img src="./assets/images/next_btn.png" alt="next_btn">
+                </a>
               </div>
             </div>
           </div>
@@ -202,7 +238,7 @@
       </div>
     </section>
     
-    <footer>
+    <footer class="footer">
       <div class="inner_container">
         <div class="footer_flex">
           <div class="footer_logo">
@@ -219,5 +255,6 @@
       </div>
     </footer>
   </div>
+  
 </body>
 </html>

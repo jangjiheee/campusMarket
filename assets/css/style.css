@@ -60,6 +60,9 @@
 }
 
 /* section */
+.section {
+  margin-bottom: 70px;
+}
 .section .main_title h1 {
   text-align: center;
   padding: 22px 0;
@@ -101,16 +104,67 @@
 
 .section .whole_chart .left_list_box {
   width: 390px;
-  padding: 48px 0 0 52px;
+  padding: 48px 16px 0 52px;
+}
+
+.section .whole_chart .left_list_box .dep1>a {
+  margin-bottom: 45px;
+  position: relative;
+  display: inline;
+}
+
+.section .whole_chart .left_list_box .dep1:last-child {
+  margin-bottom: 82px;
 }
 
 .section .whole_chart .left_list_box .dep1 {
+  font-size: 20px;
+  font-weight: 800;
   margin-bottom: 45px;
 }
 
-.section .whole_chart .left_list_box .dep1 a {
-  font-size: 20px;
+.section .whole_chart .left_list_box .dep1 a:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -35px;
+  width: 25px;
+  height: 14px;
+  background: url("./../images/bk_arrow_down.png");
+}
+
+.section .whole_chart .left_list_box .dep1.on a:after {
+  transform: rotate(180deg);
+}
+
+
+.section .whole_chart .left_list_box .dep2 {
+  height: 0;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.section .whole_chart .left_list_box .dep1.on .dep2 {
+  height: 350px;
+}
+
+.section .whole_chart .left_list_box .dep2 li {
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.section .whole_chart .left_list_box .purchase_btn {
+  background-color: #477EFF;
+  padding: 15px;
+  text-align: center;
+}
+
+.section .whole_chart .left_list_box .purchase_btn p {
+  font-size: 22px;
   font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0px 4px 5px #3E3E3E;
 }
 
 .section .whole_chart .right_list_box {
@@ -120,5 +174,80 @@
 .section .whole_chart .right_list_box table {
   width: 100%;
   border-collapse: collapse;
+  border: 1px solid #cccccc;
+  border-width: 0px 1px 1px 1px;
+  text-align: center;
+  margin-bottom: 140px;
 }
 
+.section .whole_chart .right_list_box table td {
+  border: 1px solid #cccccc;
+  padding: 60px 0 55px 0;
+}
+
+.section .whole_chart .right_list_box table tr:first-child td {
+  border-top: none;
+}
+
+.section .whole_chart .right_list_box table td .book_img_box {
+  margin-bottom: 24px;
+}
+
+.section .whole_chart .right_list_box table td .book_desc .name {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.section .whole_chart .right_list_box table td .book_desc .price {
+  font-size: 20px;
+  font-weight: 400 ;
+}
+
+.section .whole_chart .right_list_box .page_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .whole_chart .right_list_box .page_btn .btn_img , .page_num {
+  margin-right: 85px;
+}
+
+.section .whole_chart .right_list_box .page_btn .page_num ul {
+  display: flex;
+}
+
+.section .whole_chart .right_list_box .page_btn .page_num li {
+  font-size: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 15px;
+  margin-right: 28px;
+}
+
+.section .whole_chart .right_list_box .page_btn .page_num li a {
+  padding: 18px 20px;
+}
+
+/* footer */
+.footer {
+  background-color: #3E3E3E;
+  padding: 28px 0 22px;
+  color: #CCCCCC;
+}
+.footer .footer_flex {
+  display: flex;
+  padding: 0 110px;
+  align-items: center;
+}
+
+.footer .footer_flex .footer_logo {
+  border-right: 1px solid #cccccc;
+  padding: 48px 140px 46px 0;
+}
+
+.footer .footer_flex .footer_addres {
+  padding: 48px 0 46px 90px;
+  font-size: 18px;
+  font-weight: 400;
+}
