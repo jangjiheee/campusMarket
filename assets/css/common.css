@@ -7,7 +7,8 @@
 }
 
 html, body {
-  font-family: 'NanumSquare', sans-serif
+  font-family: 'NanumSquare', sans-serif;
+  color: #333333;
 }
 
 .inner_container {

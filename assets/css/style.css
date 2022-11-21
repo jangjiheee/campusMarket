@@ -122,6 +122,7 @@
   border-radius: 20px;
   padding: 12px 16px;
 }
+
 .section .filter_array_flex .array_click p {
   border-bottom: 1px solid #cccccc;
   line-height: 20px;
@@ -129,6 +130,7 @@
   margin-bottom: 8px;
   font-size: 10px;
 }
+
 .section .filter_array_flex .array_click p:last-child {
   border-bottom: 0;
   margin-bottom: 0;
@@ -143,52 +145,7 @@
   padding: 48px 16px 0 52px;
 }
 
-.section .whole_chart .left_list_box .dep1>a {
-  margin-bottom: 45px;
-  position: relative;
-  display: inline;
-}
 
-.section .whole_chart .left_list_box .dep1:last-child {
-  margin-bottom: 82px;
-}
-
-.section .whole_chart .left_list_box .dep1 {
-  font-size: 20px;
-  font-weight: 800;
-  margin-bottom: 45px;
-}
-
-.section .whole_chart .left_list_box .dep1 a:after {
-  content: '';
-  position: absolute;
-  top: 5px;
-  right: -35px;
-  width: 25px;
-  height: 14px;
-  background: url("./../images/bk_arrow_down.png");
-}
-
-.section .whole_chart .left_list_box .dep1.on a:after {
-  transform: rotate(180deg);
-}
-
-
-.section .whole_chart .left_list_box .dep2 {
-  height: 0;
-  overflow: hidden;
-  transition: 0.7s;
-}
-.section .whole_chart .left_list_box .dep1.on .dep2 {
-  height: 350px;
-}
-
-.section .whole_chart .left_list_box .dep2 li {
-  padding: 12px 0;
-  font-size: 16px;
-  font-weight: 400;
-  color: #333333;
-}
 
 .section .whole_chart .left_list_box .purchase_btn {
   background-color: #477EFF;
@@ -286,4 +243,55 @@
   padding: 48px 0 46px 90px;
   font-size: 18px;
   font-weight: 400;
+}
+
+.section .whole_chart .left_list_box .dep1>a {
+  margin-bottom: 45px;
+  position: relative;
+  display: inline;
+}
+
+.section .whole_chart .left_list_box .dep1:last-child {
+  margin-bottom: 82px;
+}
+
+.section .whole_chart .left_list_box .dep1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 45px;
+}
+
+.section .whole_chart .left_list_box .dep1 a.li01:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -35px;
+  width: 25px;
+  height: 14px;
+  background: url("./../images/bk_arrow_down.png");
+}
+
+.section .whole_chart .left_list_box .li01.on:after {
+  transform: rotate(180deg);
+}
+
+.section .whole_chart .left_list_box .dep2 {
+  height: 0;
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+.section .whole_chart .left_list_box .li01.on .dep2 {
+  height: 350px;
+}
+
+.section .whole_chart .left_list_box .dep2 li {
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.section .whole_chart .left_list_box .dep2.on {
+  height: 550px;
 }
