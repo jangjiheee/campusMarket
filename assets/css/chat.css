@@ -1,3 +1,19 @@
+.main_menu .icon_box .chat {
+  position: relative;
+}
+
+.main_menu .icon_box .chat .new_message {
+  position: absolute;
+  background-color: rgba(71, 126, 255, 0.9);
+  border-radius: 15px;
+  color: #ffffff;
+  z-index: 1;
+  bottom: -110%;
+  width: 240px;
+  left: -150%;
+  padding: 15px 30px;
+}
+
 .chat_section .chat_flex_box {
   display: flex;
 }
